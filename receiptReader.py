@@ -56,8 +56,8 @@ while (j < Data.index('Subtotal')):
 new_receipt = {
     'Location': Location,
     'Date': TimeNDate,
-    'Items Purchased': Items,
-    'Price': Costs,
+    'Item(s) Purchased': Items,
+    'Price(s)': Costs,
     'Subtotal': Subtotal,
     'Tax': TotalTax,
     'Total Price': Total,
